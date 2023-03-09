@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  overflow-x: hidden;
+  font-family: "Raleway", sans-serif;
+}
+
+/* main body styling start from here */
+.main-body-wrapper {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("/assets/bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-left: 10rem;
+  padding-top: 5rem;
+  padding-left: 10rem;
+}
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/* wrapper left part styling */
+.left-part h2 {
+  font-size: 48px;
+  font-weight: 400;
+}
+.left-part h1 {
+  font-size: 104px;
+  font-weight: 600;
+  padding: 1rem 0;
+}
+
+.left-part button {
+  background-color: #00acf1;
+  color: white;
+  border: none;
+  font-size: 20px;
+  border-radius: 8px;
+  padding: 0.6rem 2rem;
+}
+/* wrapper right part styling */
+.right-part img {
+  width: 45rem;
+  height: inherit;
+  padding-right: 10rem;
+}
+
+/* animation start from here */
+.first-title {
+  animation-delay: 1s;
+  animation-name: animate__fadeInUp;
+}
+
+/* rounded text animation */
+#circ {
+  font-size: 36px;
+  font-weight: 200;
+  text-transform: uppercase;
+  animation: spin 14s linear infinite;
+  color: black;
+  /* margin-top: 5rem; */
+}
+@keyframes spin {
+  100% {
+    transform: rotate(360deg);
+  }
+}

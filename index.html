@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- google font link here -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- css link here -->
+    <link rel="stylesheet" href="./css/main.css" />
+
+    <!-- css animation library -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="main-body-wrapper">
+   <div class="wrapper">
+    <div class="left-part">
+        <h2 class="animate__animated animate__fadeInUp animate__delay-2s">
+          Become A
+        </h2>
+        <h1 class="animate__animated animate__fadeInUp animate__delay-3s">
+          JS Ninja
+        </h1>
+        <button
+          class="main-button animate__animated animate__fadeInUp animate__delay-4s"
+        >
+          Kill the Web
+        </button>
+      </div>
+      <div class="right-part">
+        <img
+          class="animate__animated animate__fadeInRight animate__delay-1s"
+          src="./assets/hero-image.png"
+          alt=""
+          srcset=""
+        />
+      </div>
+   </div>
+
+      <div id="circ">
+        &nbsp; React &nbsp; &nbsp; Node &nbsp; &nbsp; CSS &nbsp; &nbsp; Next &nbsp; &nbsp; Express &nbsp; &nbsp; Nest &nbsp; &nbsp; HTML &nbsp; &nbsp; GSAP &nbsp; &nbsp; 3.JS &nbsp; &nbsp; SASS &nbsp; &nbsp;
+      </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/circletype@2.3.0/dist/circletype.min.js"></script>
+
+    <script>
+      let circ = new CircleType(document.getElementById("circ"));
+      circ.raduis(360);
+    </script>
+  </body>
+</html>
